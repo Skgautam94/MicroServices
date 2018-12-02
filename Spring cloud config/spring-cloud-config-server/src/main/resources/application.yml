@@ -1,0 +1,11 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Skgautam94/Microservices
+          searchPaths: ConfigData
+
+server:
+  port: 8001
